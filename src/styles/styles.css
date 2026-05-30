@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+.buttons {
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 50px;
+    /* background-color: lightgrey; */
+}
+
+.edit {
+    background-color: lightcoral;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: rgb(116, 196, 116);
+    border-radius: 5px;
+}
+
+.edit:hover {
+    background-color: rgb(225, 111, 83);
+    border-radius: 5px;
+}
+
+
+
+.submit:hover {
+    background-color: rgb(71, 182, 145);
+}
